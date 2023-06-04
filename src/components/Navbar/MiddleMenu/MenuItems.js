@@ -6,12 +6,12 @@ const MenuItems = ({ menuItemsData,index }) => {
   const [open, setOpen] = useState(false);
   const [openSup, setOpenSup] = useState(false);
   return (
-    <li className="relative mx-1  cursor-pointer py-2 group" >
-      <div className="flex items-center justify-center  ">
-        <p className="uppercase pr-[1px] ml-4 ">{menuItemsData}</p>
-        <di className=" text-xl group-hover:rotate-180 duration-700"><MdOutlineKeyboardArrowDown /></di>
+    <li className="relative mx-1  cursor-pointer py-2 group" onMouseEnter={()=>setOpen(true)} onMouseLeave={()=>setOpen(false)}>
+      <div className="flex items-center justify-center  " >
+        <p className="uppercase pr-[1px] ml-4 "  >{menuItemsData}</p>
+        <di className={` text-xl ${open&&"rotate-180"} duration-700`}><MdOutlineKeyboardArrowDown /></di>
       </div>
-      <ul className={`group-hover:z-[201] absolute font-normal  bg-gray-50   p-3 w-fit px-1  rounded-md mt-2 ml-0 translate-x-[-20px] group-hover:translate-x-0 opacity-0 group-hover:opacity-100 group-hover:block text-[14px] duration-500 z-[-1] ` } >
+      <ul className={`${open?"z-[201]  block translate-x-0":"translate-x-[-20px] hidden  z-[-1]"}  absolute font-normal  bg-gray-50   p-3 w-fit px-1  rounded-md mt-2 ml-0  text-[14px] duration-700  ` } >
         {
          sub[index].map((data, i) => (
             <li key={i} className="py-2 px-4 underline group/i hover:no-underline duration-200 hover:text-[var(--color-default)]">
