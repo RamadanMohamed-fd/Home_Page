@@ -24,17 +24,17 @@ const FirstHead = () => {
         </div>
       </div>
       <div className="flex justify-between items-center gap-6 mr-[7%] w-[15rem] ">
-        <div className="flex justify-between  items-center ">
+        <div className="flex justify-between  items-center hover:text-slate-300 duration-200  ">
         <BsFillSuitHeartFill/>
-        <p className="ml-2 underline hover:no-underline"><a href='#'>Wishlist</a></p>
+        <p className="ml-2  "><a href='#'>Wishlist</a></p>
         </div>
-        <div className="flex justify-between items-center relative group/t py-2.5">
+        <div className="flex justify-between items-center relative group/t py-2.5 hover:text-slate-300 duration-200 ">
           <BsFillPersonFill/>
           <p className="mx-2 cursor-pointer ">My account</p>
           <ul className=' bg-gray-50 text-[16px] absolute rounded-md  -top-[10rem] opacity-0 group-hover/t:animate-moveUp right-0 text-black p-4 z-[510] w-40 '> 
-            <li className='m-2.5  underline hover:no-underline'><a href='#'>Login</a></li>
-            <li className='m-2.5 underline hover:no-underline'><a href='#'>Register</a></li>
-            <li className='m-2.5 '><a href='#'>Logout</a></li>
+            <li className='m-2.5 hover:text-[var(--color-default)] duration-200  '><a href='#'>Login</a></li>
+            <li className='m-2.5 hover:text-[var(--color-default)] duration-200  '><a href='#'>Register</a></li>
+            <li className='m-2.5 hover:text-[var(--color-default)] duration-200  '><a href='#'>Logout</a></li>
           </ul>
           <AiOutlineDown/>
         </div>
@@ -50,8 +50,8 @@ const FirstHead = () => {
         <BsFillPersonFill/>
         <div className=" absolute z-[106] max-sm:-right-0 opacity-0 group-hover/i:animate-moveDown1 bottom-[-10rem]">
           <ul className=' bg-white text-[16px] rounded-md text-black p-4  w-40 '> 
-            <li className='m-2.5  underline hover:no-underline'><a href='#'>Login</a></li>
-            <li className='m-2.5 underline hover:no-underline'><a href='#'>Register</a></li>
+            <li className='m-2.5  '><a href='#'>Login</a></li>
+            <li className='m-2.5 '><a href='#'>Register</a></li>
             <li className='m-2.5 '><a href='#'>Logout</a></li>
           </ul>
         </div>
