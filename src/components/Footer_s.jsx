@@ -32,7 +32,7 @@ let year = d.getFullYear();
               <p className=''>104, N A Majestic, Shanti Nagar, Laxmisagar, Bhubaneswar, Odisha- 751006 India</p>
             </div>
           </li>
-          <li className="flex items-center font-mono text-[15px] cursor-pointer ">
+          <li className="flex items-center   text-[15px] cursor-pointer ">
             <span className='text-[var(--color-default)]'>
               <FiMail />
             </span>
@@ -42,12 +42,12 @@ let year = d.getFullYear();
       </div>
       <div className="w-[12rem] max-sm:w-[7rem]">
         <h3 className="text-xl font-bold mb-4  text-[var(--color-default)] cursor-pointer">COMPANY</h3>
-        <ul className=" flex flex-col font-mono font-bold gap-1 text-sm ">
-          <li className=' font-mono hover:text-[var(--color-default)] duration-150'><a href="#">About Us</a></li>
-          <li className='font-mono hover:text-[var(--color-default)] duration-150'><a href="#">Contact</a></li>
-          <li className=' font-mono hover:text-[var(--color-default)] duration-150'><a href="#">Help Center</a></li>
-          <li className=' font-mono hover:text-[var(--color-default)] duration-150'><a href="#">Locate Us</a></li>
-          <li className='font-mono hover:text-[var(--color-default)] duration-150'><a href="#">Login / Register</a></li>
+        <ul className=" flex flex-col  font-bold gap-1 text-sm ">
+          <li className='  hover:text-[var(--color-default)] duration-150'><a href="#">About Us</a></li>
+          <li className=' hover:text-[var(--color-default)] duration-150'><a href="#">Contact</a></li>
+          <li className='   hover:text-[var(--color-default)] duration-150'><a href="#">Help Center</a></li>
+          <li className='   hover:text-[var(--color-default)] duration-150'><a href="#">Locate Us</a></li>
+          <li className='  hover:text-[var(--color-default)] duration-150'><a href="#">Login / Register</a></li>
         </ul>
       </div>
       <div className="w-[12rem] max-sm:w-[7rem]">
@@ -86,7 +86,7 @@ let year = d.getFullYear();
       </div>
      </div>
   </div>
-  <div className='w-full min-h-10 p-2  max-[570px]:mb-14 bg-[var(--color-default)]  text-center text-white flex justify-center items-center font-mono'>Copyright © {year} CraftIndika ® Retail Private Limited | All Rights Reserved</div>
+  <div className='w-full min-h-10 p-2  max-[570px]:mb-14 bg-[var(--color-default)] font-mono  text-center text-white flex justify-center items-center  '>Copyright © {year} CraftIndika ® Retail Private Limited | All Rights Reserved</div>
   </div>
   )
 }
