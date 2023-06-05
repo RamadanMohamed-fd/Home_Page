@@ -11,7 +11,7 @@ export default function useRedirectAfterSomeSeconds(redirectTo, seconds) {
     const timer = setTimeout(() => {
       setSecondsRemaining((prevSecondsRemaining) => prevSecondsRemaining - 1);
       if (secondsRemaining === 1) router.push(redirectTo);
-    }, 5000);
+    }, 1000);
 
     return () => {
       clearInterval(timer);
