@@ -5,8 +5,8 @@ const SectionProduct = (props) => {
   return (
     <div key={props.kay} className=' text-center'>
         <div  className="   m-auto rounded-t-lg overflow-hidden  cursor-pointer flex">
-            <div className="group relative w-[100%] h-[250px] md:h-[300px]   duration-1000 ">
-                <Image src={props.img} fill objectFit='cover' placeholder='blure'/>
+            <div className="group relative w-[100%] h-[270px]  xl:h-[290px]   duration-1000 ">
+                <Image quality={100} src={props.img} width={350} height={350} objectFit='cover' placeholder='blure'/>
                 <div className="absolute w-full h-full  top-0 left-0 grid grid-rows-3 grid-cols-4 group">
                     <SliderHover/>
                 </div>
