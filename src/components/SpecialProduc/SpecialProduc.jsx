@@ -23,7 +23,7 @@ const SpecialProduc = () => {
   return (
   <div id='curated_collections' className=" bg-white w-full">
     <Title title="CraftIndika Curation" sup="Special Product" style="p-2 pt-12"/>
-    <div className=" py-10  w-[95%] md:w-[80%] m-auto   flex flex-col justify-center items-center  ">
+    <div className=" py-10 xl:w-[75%] max-[960px]:w-[80%] w-[90%] m-auto flex flex-col justify-center items-center  ">
     <Swiper
     className="relative"
         slidesPerView={x}
