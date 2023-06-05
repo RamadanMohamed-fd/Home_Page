@@ -101,8 +101,8 @@ const TopCollection = (props) => {
             </div>
             <div className='flex justify-evenly items-center my-2 '>
               <div className=' flex flex-col justify-evenly items-center text-center'>
-                <h3 className="text-lg font-semibold pr-2">{product.name}</h3>
-                <h1 className="text-lg text-center text-red-700 mb-2">{product.price}</h1>
+                <h3 className="text-lg  pr-2">{product.name}</h3>
+                <h1 className="text-lg text-center text-[#ff4c3b] mb-2">{product.price}</h1>
               </div>
               <Cart item={product}/>
             </div>
