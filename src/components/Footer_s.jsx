@@ -42,7 +42,7 @@ let year = d.getFullYear();
       </div>
       <div className="w-[12rem] max-sm:w-[7rem]">
         <h3 className="text-xl font-bold mb-4  text-[var(--color-default)] cursor-pointer">COMPANY</h3>
-        <ul className=" flex flex-col  font-bold gap-1 text-sm ">
+        <ul className=" flex flex-col font-bold gap-1 text-sm ">
           <li className='  hover:text-[var(--color-default)] duration-150'><a href="#">About Us</a></li>
           <li className=' hover:text-[var(--color-default)] duration-150'><a href="#">Contact</a></li>
           <li className='   hover:text-[var(--color-default)] duration-150'><a href="#">Help Center</a></li>
@@ -51,8 +51,8 @@ let year = d.getFullYear();
         </ul>
       </div>
       <div className="w-[12rem] max-sm:w-[7rem]">
-        <h3 className="text-xl uppercase font-bold mb-4 text-[var(--color-default)] cursor-pointer">POLICIES</h3>
-        <ul className=" flex text-sm flex-col font-semibold gap-1 ">
+        <h3 className="text-xl uppercase  font-bold mb-4 text-[var(--color-default)] cursor-pointer">POLICIES</h3>
+        <ul className=" flex text-sm flex-col  font-bold gap-1 ">
           <li className='hover:text-[var(--color-default)] duration-150'><a href="#">Terms & Conditions</a></li>
           <li className='hover:text-[var(--color-default)] duration-150'><a href="#">Privacy Policy</a></li>
           <li className='hover:text-[var(--color-default)] duration-150'><a href="#">Shipping Policy</a></li>
@@ -61,25 +61,25 @@ let year = d.getFullYear();
         </ul>
       </div>
       <div className="w-[20rem] flex flex-col mr-2">
-        <h3 className=" text-xl uppercase font-bold mb-4 text-[var(--color-default)] cursor-pointer">MAP</h3>
+        <h3 className=" text-xl uppercase  font-bold mb-4 text-[var(--color-default)] cursor-pointer">MAP</h3>
         <a className=' border-2' href='https://www.google.com/maps/place/N.+A.+Majestic+Apartment/@20.278097,85.860166,14z/data=!4m5!3m4!1s0x0:0x33712591060b90b1!8m2!3d20.2781128!4d85.8601243?hl=en-US&shorturl=1' target='_blank'>
           <Image src="/craftindika-map.jpg" width={500} height={400}/>
         </a>
       </div>
       <div className="w-[15rem]">
-        <h3 className="text-xl uppercase font-bold mb-4 text-[var(--color-default)] cursor-pointer">WEEKLY NEWSLETTER</h3>
+        <h3 className="text-xl uppercase  font-bold mb-4 text-[var(--color-default)] cursor-pointer">WEEKLY NEWSLETTER</h3>
           <div className="flex flex-col w-full px-3 gap-2 justify-center items-center">
             <input
               type="text"
               placeholder="Name"
-              className=" text-slate-900 outline-none bg-white border-4 rounded-md  py-2 text-sm w-full px-5"
+              className=" text-slate-600 outline-none bg-white border-4 rounded-md  py-2 text-sm w-full px-5"
             />
             <input
               type="text"
               placeholder="Email"
-              className=" text-slate-900 outline-none bg-white border-4 rounded-md  py-2 text-sm w-full px-5"
+              className=" text-slate-600 outline-none bg-white border-4 rounded-md  py-2 text-sm w-full px-5"
             />
-            <button className="text-base px-3 py-3 btn text-white bg-red-700 font-bold  rounded-md uppercase ">
+            <button className="text-base px-3 py-3 btn text-white bg-red-700  font-bold  rounded-md uppercase ">
               Subscribe
             </button>
           </div>

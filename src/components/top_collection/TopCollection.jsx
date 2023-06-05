@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react'
 import Title from '../Title'
 import {TopCollection_data} from "./TopCollection_data";
-import { AiOutlineHeart,AiTwotoneHeart } from "react-icons/ai";
-import { BsArrowLeftSquareFill,BsArrowRightSquareFill } from "react-icons/bs";
-import {GrFormView } from "react-icons/gr";
+
+import { BsArrowLeftSquareFill,BsArrowRightSquareFill,BsBalloonHeartFill } from "react-icons/bs";
+
 import Heart from './Heart';
 import Image from 'next/image';
 import Cart from './Cart';
@@ -91,8 +91,8 @@ const TopCollection = (props) => {
             <div className="group relative w-[100%]  overflow-hidden">
               <div className=' object-cover rounded-md transition duration-300 ease-in-out'>
                 <Image src={product.img1} alt='Product_Image' width={500} height={500}/>
-                <div className='text-3xl absolute z-40 right-0 bottom-0 m-2 '>
-                  <Heart icon1={AiOutlineHeart} icon2={AiTwotoneHeart}/>
+                <div className='text-3xl hover:scale-[1.2] duration-200 absolute z-40 right-0 bottom-0 m-2 '>
+                  <Heart icon1={BsBalloonHeartFill} icon2={BsBalloonHeartFill} />
                 </div>
               </div>
               <div className=' object-cover absolute top-0 left-0 -translate-x-[100vw] group-hover:translate-x-[0vw] rounded-md transition duration-500 ease-in-out'>

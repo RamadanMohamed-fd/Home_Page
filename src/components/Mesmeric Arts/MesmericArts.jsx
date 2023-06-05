@@ -13,7 +13,7 @@ const MesmericArts = () => {
   }
   return (
 <div className=' overflow-hidden'>
-<Banner img="bg-[url('/Art/Art1.jpg')]" title="Mesmeric Arts Collection" sup="Exclusive Offers" style="md:text-[5rem]" bg="bg-red-50/50"/> 
+<Banner img="bg-[url('/Art/Art1.jpg')]" title="Mesmeric Arts Collection" sup="Exclusive Offers" style="md:text-[4.5rem] text-[crimson]" bg="bg-red-50/50"/> 
  <div id='mesmerica_arts' className=" py-8  w-full relative bg-white flex justify-center items-center flex-col">
     <Title title="Arts Collection" sup="Exclusive Gallery" style="my-4"/>
     <div className='py-5 md:w-[80%]  max-[533px]:w-[75%] max-[370px]:w-[95%] m-auto  flex flex-col justify-center items-center'>

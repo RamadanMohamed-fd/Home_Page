@@ -1,7 +1,7 @@
 import React from 'react'
 import { TopCollection_data } from './top_collection/TopCollection_data';
-import { AiOutlineHeart,AiTwotoneHeart } from "react-icons/ai";
-import { BsArrowLeftSquareFill,BsArrowRightSquareFill } from "react-icons/bs";
+
+import { BsArrowLeftSquareFill,BsArrowRightSquareFill,BsBalloonHeartFill } from "react-icons/bs";
 import Heart from './top_collection/Heart';
 import Cart from './top_collection/Cart';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -37,9 +37,9 @@ const SwiperSection = (props) => {
           <div className="group relative w-[50%]  h-full">
             <img className="w-full h-full object-cover rounded-t-md transition duration-300 ease-in-out"
              src={product.img1} />
-            <div className='text-3xl absolute z-40 right-0 bottom-0 m-2 '>
-              <Heart icon1={AiOutlineHeart} icon2={AiTwotoneHeart}/>
-            </div>
+           <div className='text-3xl hover:scale-[1.2] duration-200 absolute z-40 right-0 bottom-0 m-2 '>
+                  <Heart icon1={BsBalloonHeartFill} icon2={BsBalloonHeartFill} />
+                </div>
             <img className="w-full h-full object-cover absolute top-0 left-0 opacity-0 group-hover:opacity-100 rounded-t-md transition duration-300 ease-in-out"
              src={product.img2} />
           </div>

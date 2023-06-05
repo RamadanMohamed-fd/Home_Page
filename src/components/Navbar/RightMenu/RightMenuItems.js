@@ -25,3 +25,37 @@ const RightMenuItems = ({ data,index }) => {
 };
 
 export default RightMenuItems;
+
+
+// import React, { useState } from 'react'
+
+// const RightMenuItems = ({menuItemsData}) => {
+//   const [activeItem, setActiveItem] = useState(null);
+
+//   const handleItemClick = (item) => {
+//     if (activeItem === item) {
+//       setActiveItem(null);
+//     } else {
+//       setActiveItem(item);
+//     }
+//   };
+
+//   return (
+//     <div>
+//       <ul>
+//         {menuItemsData.map((item, index) => (
+//           <li key={index}>
+//             {/* <a href={item.href} > */}
+//               <h3 onClick={() => handleItemClick(item)}>{item.title}</h3>
+//             {/* </a> */}
+//             {activeItem === item && item.subMenuItems && (
+//               <RightMenuItems menuItemsData={item.subMenuItems} />
+//             )}
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   )
+// }
+
+// export default RightMenuItems

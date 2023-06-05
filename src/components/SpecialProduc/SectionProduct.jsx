@@ -14,7 +14,7 @@ const SectionProduct = (props) => {
         </div>
     
         <div className="mt-4">
-            <h4 className=" text-slate-600   tracking-wider text-[18px] f -mt-1">{props.title}</h4>
+            <h4 className=" text-slate-800 font-serif  tracking-wider text-[18px] f -mt-1">{props.title}</h4>
         </div>
     </div>
   )
