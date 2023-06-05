@@ -46,7 +46,7 @@ const SwiperSection = (props) => {
          
         <div className=' w-[45%] pt-4 h-[180px]'>
           <h3 className="text-md ml-2 text-lg font-semibold">{product.name}</h3>
-          <h2 className="text-xl font-semibold ml-2 pb-1  border-b-2 text-[var(--color-default)]">{product.price}</h2>
+          <h2 className="text-xl font-semibold ml-2 pb-1  border-b-2 text-red-400">{product.price}</h2>
           <div className='flex items-center pt-6  justify-center'>
             <Cart item={product}/>
           </div>  
